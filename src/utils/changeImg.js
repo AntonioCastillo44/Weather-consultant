@@ -1,13 +1,13 @@
 const img = {
-    "scattered clouds":"/src/img/nublado.png",
-    "broken clouds":"/src/img/nublado.png",
-    "clear sky": "/src/img/soleado.png",
-    "few clouds":"/src/img/soleado.png",
-    "shower rain": "/src/img/lluvia.png",
-    "thunderstorm": "/src/img/lluvia.png",
-    "rain": "/src/img/lluvia.png",
-    "snow":"/src/img/frio.png",
-    "mist":"/src/img/frio.png"
+    "scattered clouds":"/img/nublado.png",
+    "broken clouds":"/img/nublado.png",
+    "clear sky": "/img/soleado.png",
+    "few clouds":"/img/soleado.png",
+    "shower rain": "/img/lluvia.png",
+    "thunderstorm": "/img/lluvia.png",
+    "rain": "/img/lluvia.png",
+    "snow":"/img/frio.png",
+    "mist":"/img/frio.png"
 }
 
 export default img 

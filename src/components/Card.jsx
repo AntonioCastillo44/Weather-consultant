@@ -25,7 +25,6 @@ const card = ({ datesLocation, change, changeDegrees, temperature, descrptionDat
                             <li> Wind: {datesLocation.wind?.speed} m/s </li>
                         </ul>
                     </article>
-                   
                 </div>
                 <img className='btn' onClick={changeDegrees} src={btn[change]}/>
             </div>
