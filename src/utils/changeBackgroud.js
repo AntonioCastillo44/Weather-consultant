@@ -1,6 +1,7 @@
 const background = {
     "scattered clouds":"AppClouds",
     "broken clouds":"AppClouds",
+    "overcast clouds": "AppClouds",
     "clear sky": "AppCloudSky",
     "few clouds":"AppCloudSky",
     "shower rain": "AppRain",
