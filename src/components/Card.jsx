@@ -21,8 +21,8 @@ const card = ({ datesLocation, change, changeDegrees, temperature, descrptionDat
                         <h2> {datesLocation.weather?.[0].main} </h2>
                         <ul className='ul__items'>
                             <li className='li__item'>  {datesLocation.weather?.[0].description}</li>
-                            <li> Clouds: {datesLocation.clouds?.all} % </li>
-                            <li> Wind: {datesLocation.wind?.speed} m/s </li>
+                            <li className='li'> Clouds: {datesLocation.clouds?.all} % </li>
+                            <li className='li'> Wind: {datesLocation.wind?.speed} m/s </li>
                         </ul>
                     </article>
                 </div>

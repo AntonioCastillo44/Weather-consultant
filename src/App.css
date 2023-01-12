@@ -1,113 +1,134 @@
 body {
-margin: 0;
-}
-img{
-  width:100%;
-  height:auto;
-} 
-ul{
-  list-style: none;
   margin: 0;
-}
-article{
-  width: 50%;
-}
-.blue {
-  color: #47B0D1;
-  text-align: center;
-}
-.orange {
-  color: #f19e26;
-  text-align: center;
-}
-
-
-.backgroundWeather{
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: x-large;
-}
-
-.AppClouds { 
-  background-image: url('../src/img/cloud.gif');
-}
-.AppCloudSky{
-  background-image: url('../src/img/sky.gif');
-}
-.AppRain{
-  background-image: url('../src/img/rain.gif');
-}
-.AppSnow{
-  background-image: url('../src/img/snow.gif');
-}
-
-.card {
-  border: 100px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  background-color: #ffffff;
-  width: 450px;
-  height: auto;
-  text-align: center;
-  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.836);
-  padding: 0 15px;
-}
-.card__h3, .card__h4{
-  color: black;
-}
-.content__img__dates {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.ul__items{
-  text-align: left;
+  }
+  img{
+    width:100%;
+    height:auto;
+  } 
+  ul{
+    list-style: none;
+    margin: 0;
+  }
+  article{
+    width: 50%;
+  }
+  .blue {
+    color: #47B0D1;
+    text-align: center;
+  }
+  .orange {
+    color: #f19e26;
+    text-align: center;
+  }
+  
+  
+  .backgroundWeather{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: x-large;
+  }
+  
+  .AppClouds { 
+    background-image: url('../src/img/cloud.gif');
+  }
+  .AppCloudSky{
+    background-image: url('../src/img/sky.gif');
+  }
+  .AppRain{
+    background-image: url('../src/img/rain.gif');
+  }
+  .AppSnow{
+    background-image: url('../src/img/snow.gif');
+  }
+  
+  .card {
+    border: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.836);
+    padding: 0 15px;
+  }
+  .card__h3, .card__h4{
+    color: black;
+  }
+  .content__img__dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ul__items{
+    text-align: left;
+    font-weight: 600;
+    color: black;
+  }         
+  .li__item{
   font-weight: 600;
-  color: black;
-}         
-.li__item{
-font-weight: 600;
-margin: 15px 0;
-font-size: 1.5rem;
-}
-
-.loading{
-font-size: 1.8rem;
-text-align: center;
-height: 100vh;
-width: 100vw; 
-background-image: url('../src/img/FondoCargando.png');
-background-size:auto;
-background-color: rgb(156, 205, 251);
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-color: black;
-}
-.loading__img{
-  width: 25%;
-}
-
-.btn{
   margin: 15px 0;
-  width: 70px;
-  height: auto;
-  border-radius: 45px;
-}
-.btn:hover {
-  cursor: pointer;
-transform: scale(1.1);
-}
-
-.article__img{
-  height: 225px;
-  width: auto;
-  max-width: 250px;
-}
+  font-size: 1.5rem;
+  }
+  
+  .loading{
+  font-size: 1.8rem;
+  text-align: center;
+  height: 100vh;
+  width: 100vw; 
+  background-image: url('../src/img/FondoCargando.png');
+  background-size:auto;
+  background-color: rgb(156, 205, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  }
+  .loading__img{
+    width: 25%;
+  }
+  
+  .btn{
+    margin: 15px 0;
+    width: 70px;
+    height: auto;
+    border-radius: 45px;
+  }
+  .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .article__img{
+    height: 225px;
+    width: auto;
+    max-width: 250px;
+  }
+  
+  @media  (max-width: 750px) {
+    .card{
+      width: 260px;
+      font-size: medium;
+    }
+    .content__img__dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .article__img{
+    height: 175px;
+  }
+  .li{
+    font-size: smaller;
+  }
+  .btn{
+    width: 50px;
+  }
+  }
